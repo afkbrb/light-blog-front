@@ -1,0 +1,13 @@
+body {
+  color: #333;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #999;
+}
