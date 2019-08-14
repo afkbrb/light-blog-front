@@ -3,18 +3,21 @@
     <lb-navbar/>
     <lb-back-to-top/>
     <router-view/>
+    <lb-footer/>
   </div>
 </template>
 
 <script>
 import navbar from '@/components/Navbar'
 import backToTop from '@/components/BackToTop'
+import footer from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
     lbNavbar: navbar,
-    lbBackToTop: backToTop
+    lbBackToTop: backToTop,
+    lbFooter: footer
   }
 }
 </script>
