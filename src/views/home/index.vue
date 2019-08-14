@@ -42,6 +42,7 @@
         </div>
       </div>
     </div>
+    <lb-footer/>
   </div>
 </template>
 
@@ -54,6 +55,7 @@ import profile from './components/Profile'
 import link from './components/Link'
 import sort from './components/Sort'
 import project from './components/Project'
+import footer from './components/Footer'
 
 export default {
   components: {
@@ -64,7 +66,8 @@ export default {
     lbBlogTag: blogTag,
     lbSort: sort,
     lbLink: link,
-    lbProject: project
+    lbProject: project,
+    lbFooter: footer
   },
   data() {
     return {

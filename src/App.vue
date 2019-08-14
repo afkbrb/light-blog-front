@@ -10,14 +10,12 @@
 <script>
 import navbar from '@/components/Navbar'
 import backToTop from '@/components/BackToTop'
-import footer from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
     lbNavbar: navbar,
-    lbBackToTop: backToTop,
-    lbFooter: footer
+    lbBackToTop: backToTop
   }
 }
 </script>
