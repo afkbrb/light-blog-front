@@ -6,10 +6,6 @@ Light Blog是一个前后端分离的轻量级个人博客系统，基于本人�
 
 本博客系统由后台服务器系统(light-blog-back)、后台管理系统(light-blog-admin)、前端系统(light-blog-front)三个子系统组成。其中，后台服务系统基于SpringBoot，后台管理系统和前端系统均基于Vue。每个子系统的详细介绍可参看相应的Github地址。
 
-## 预览地址
-
-[2w6f8c.top](http://2w6f8c.top)
-
 ## 技术栈
 
 vue-cli + bootstrap + element-ui + marked + hljs
